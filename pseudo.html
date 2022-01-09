@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1:hover {
+        color: sandybrown;
+        background-color: skyblue;
+        font-size: 55px;
+      }
+      .middle:focus {
+        color: tan;
+        font-weight: 700;
+      }
+      li:first-child {
+        color: tomato;
+      }
+      li:last-child {
+        background-color: violet;
+      }
+      /* li:nth-child(n) {
+        color: yellow;
+      } */
+      /* li:nth-child(2n) {
+        background-color: yellow;
+      } */
+      li:nth-child(2n + 1) {
+        background-color: red;
+      }
+      /* Pesudo "Element" */
+      h3::before {
+        content: "Hello ";
+      }
+      h3::after {
+        content: " Gelo";
+      }
+      /* Pesudo "Element" */
+    </style>
+  </head>
+  <body>
+    <h1>This is normal</h1>
+    <input type="text" />
+    <input class="middle" type="text" />
+    <input type="text" />
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.google.com">Google</a>
+    <ul>
+      <li>alia</li>
+      <li>kali</li>
+      <li>chali</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+      <li>jalia</li>
+    </ul>
+    <h3>What are you doing-1</h3>
+    <h3>What are you doing-2</h3>
+    <h3>What are you doing-3</h3>
+    <h3>What are you doing-4</h3>
+  </body>
+</html>
